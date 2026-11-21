@@ -5,5 +5,9 @@ def add(a, b):
 def subtract(a, b):
     return a - b
 
+def division(a,b):
+    return a/b
+
 print("2 + 3 =", add(2, 3))
 print("10 - 4 =", subtract(10, 4))
+print("5/10=", division(5,10))
